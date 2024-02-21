@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SimpleButton = styled.button`
-  border: 1px solid #FFCAD4;
+  border: 1px solid #ffcad4;
   background: transparent;
   color: #000;
   padding: 9px;
@@ -11,7 +11,7 @@ export const SimpleButton = styled.button`
   box-shadow: 0 0 8px;
 
   &:hover {
-    background: #FFCAD4;
+    background: #ffcad4;
   }
 
   a {
@@ -19,8 +19,8 @@ export const SimpleButton = styled.button`
     text-decoration: none;
 
     &:hover {
-    background: #FFCAD4;
-    color: #000;
-  }
+      background: #ffcad4;
+      color: #000;
+    }
   }
 `;

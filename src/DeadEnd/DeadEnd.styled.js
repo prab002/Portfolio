@@ -15,7 +15,7 @@ export const DeadEndBox = styled.div`
 export const DeadEndHeading = styled.div`
   font-weight: bold;
   font-size: 30px;
-  color: #d75576;
+  color: #cbc6bf;
   font-family: PoppinItalic;
 `;
 
@@ -47,7 +47,7 @@ export const SubTitleBox = styled.div`
   width: 100%;
 `;
 
-export const ButtonContainer=styled.div`
-    width: 100%;
-    max-width: 200px;
-`
+export const ButtonContainer = styled.div`
+  width: 100%;
+  max-width: 200px;
+`;
