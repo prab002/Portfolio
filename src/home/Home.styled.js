@@ -15,7 +15,7 @@ export const HomeTitle = styled.span`
   text-align: center;
   width: 100%;
 
-  @media (max-width: 991px){
+  @media (max-width: 991px) {
     font-size: 1rem;
   }
 `;
@@ -41,4 +41,15 @@ export const Textrt = styled.div`
   font-weight: 900;
   font-size: small;
   margin: 12px;
+`;
+
+export const MacBox = styled.div`
+  width: 600px;
+  height: 900px;
+  
+
+  @media (max-width: 991px) {
+    width: 319px;
+    height: 319px;
+  }
 `;

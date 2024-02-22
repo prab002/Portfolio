@@ -4,9 +4,11 @@ import {
   AssetBox,
   HomeInnerContainer,
   HomeTitle,
+  MacBox,
   StyledCoolImage,
   Textrt,
 } from "./Home.styled";
+import { PrabMac } from "./Models/MacModel.Model";
 
 export function Home() {
   return (
@@ -39,6 +41,9 @@ export function Home() {
               </div>
               <Textrt>오늘 해라</Textrt>
             </AssetBox>
+            <MacBox>
+              <PrabMac />
+            </MacBox>
           </HomeInnerContainer>
         </Container>
       </Section>
